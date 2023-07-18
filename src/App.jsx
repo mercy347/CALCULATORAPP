@@ -65,19 +65,19 @@ function App() {
           <div onClick={handleNum}className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">7</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">8</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">9</div>
-          <div onClick={operatorHandler} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-orange-500 rounded-full">/</div>
+          <div onClick={operatorHandler} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-blue-500 rounded-full">/</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">4</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">5</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">6</div>
-          <div ON onClick={operatorHandler} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-orange-500 rounded-full">-</div>
+          <div ON onClick={operatorHandler} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-blue-500 rounded-full">-</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">1</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">2</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">3</div>
-          <div onClick={operatorHandler} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-orange-500 rounded-full">+</div>
+          <div onClick={operatorHandler} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-blue-500 rounded-full">+</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full">0</div>
           <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-gray-500 rounded-full"></div>
-          <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-orange-500 rounded-full">.</div>
-          <div onClick={calculate} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-orange-500 rounded-full">=</div>
+          <div onClick={handleNum} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-blue-500 rounded-full">.</div>
+          <div onClick={calculate} className="m-2 w-14 h-14 flex text-white mt-5 items-center justify-center bg-blue-500 rounded-full">=</div>
         
         </div>
 
